@@ -1,0 +1,23 @@
+{
+  "name": "notificationserver",
+  "version": "1.0.0",
+  "description": "A notification server to interface with the clientnotification project.",
+  "main": "notificationserver.js",
+  "dependencies": {
+    "body-parser": "^1.15.0",
+    "express": "^4.13.4",
+    "socket.io": "^1.4.5"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "node notificationserver.js"
+  },
+  "keywords": [
+    "server",
+    "notification",
+    "node",
+    "socket.io"
+  ],
+  "author": "Khalil Stemmler",
+  "license": "ISC"
+}
